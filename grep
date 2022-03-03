@@ -49,6 +49,12 @@ grep -o "start.*end" test.txt
 # show line number while displaying the output	
 grep -n "string" test.txt
 
+# show string ignorin case and show only the word
+grep -iw "string" test.txt
+
+# show strings ignorin case and show only the word and extended regular expresion
+grep -iwE "string1|string2" test.txt
+
 
 (*) Regex:
 ? The preceding item is optional and matched at most once.
